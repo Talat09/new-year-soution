@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap");
+.first-part {
+  display: grid;
+  width: 1600px;
+  /* margin: auto; */
+}
+.parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  position: relative;
+  align-items: center;
+  margin-left: 8%;
+}
+.parent img {
+  width: 1600px;
+  height: 808px;
+}
+.child {
+  width: 500px;
+  position: absolute;
+  left: 845px;
+  text-align: right;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+#first-title {
+  font-size: 65px;
+  line-height: 76.25px;
+  font-family: work sans;
+  font-weight: 700;
+}
+#first-para {
+  font-family: work sans;
+
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: right;
+  padding: 10px;
+}
+#contact-btn {
+  background-color: #f15b22;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  color: white;
+}
+/* second part */
+.image-div {
+  width: 669px;
+  height: 723.3px;
+}
+.image-div img {
+  width: 551px;
+  /* height: 898px; */
+}
+#person {
+  background-color: #eac7c7;
+  width: 500px;
+  border-radius: 30%;
+}
+.paragraph-div {
+  width: 340px;
+  height: 400px;
+  text-align: left;
+}
+.paragraph-div ul {
+  margin: 0;
+  padding: 0;
+}
+.paragraph-div ul li {
+  list-style: none;
+  text-align: left;
+  margin-left: 0;
+}
+.second-part {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  align-items: center;
+  justify-items: center;
+  margin-top: 20px;
+  padding: 10px;
+}
+#second-title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46.92px;
+  font-family: work sans;
+}
+#second-para {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-right: 100px;
+}
+.fa-solid {
+  /* width: 20px;
+  background-color: green; */
+  color: green;
+  margin-left: 0;
+}
+/* third section  */
+.myplans {
+  margin: 20px;
+}
+#myplan-title {
+  font-family: work sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46.92px;
+  text-align: center;
+  margin-top: 10px;
+}
+.all-plans {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  justify-items: center;
+  margin-top: 20px;
+}
+#plan-title {
+  font-family: work sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35.19px;
+}
+.web {
+  text-align: center;
+}
+.java {
+  text-align: center;
+}
+.smoking {
+  text-align: center;
+}
+.ecommerce {
+  text-align: center;
+}
+#single-plan-para {
+  font-family: work sans;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 29.33px;
+  color: #737272;
+}
+/* fourth section */
+.call-now {
+  display: grid;
+  justify-items: center;
+}
+.image-parent {
+  position: relative;
+}
+.chaild-shadow {
+  position: absolute;
+  top: 0;
+}
+#call-text {
+  position: absolute;
+  left: 20px;
+  bottom: 30px;
+}
+#call-text h1 {
+  color: white;
+  font-family: work sans;
+  font-size: 40px;
+  font-weight: 700;
+}
+#call-btn {
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  border-radius: 7px;
+  padding: 15px;
+  background-color: white;
+  color: #f15b22;
+}
+footer {
+  background-color: black;
+  color: white;
+  width: 1600px;
+  /* height: 808px; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 8%;
+  margin-top: 20px;
+  justify-items: center;
+  align-items: center;
+}
+#future {
+  width: 485px;
+}
+#future-title {
+  font-size: 53px;
+  font-family: work sans;
+  font-weight: 700;
+}
+#future-paragraph {
+  font-size: 16px;
+  line-height: 26px;
+  font-family: work sans;
+  font-weight: 400;
+  color: #ffffff;
+}
+.subscribe-part {
+  display: block;
+  /* padding: 5px; */
+}
+#subscribe-title {
+  font-family: work sans;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 29.33px;
+}
+#email {
+  width: 325px;
+  height: 64px;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.11px;
+  font-family: work sans;
+  /* text-align: center; */
+  color: #f3f3f3;
+  padding-left: 18px;
+}
+#subscribe-btn {
+  width: 170.11px;
+  height: 64px;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.2px;
+  color: #f15b22;
+}
+.icons {
+  display: flex;
+  margin-bottom: 10px;
+}
+.facebook-icon {
+  padding-right: 8px;
+}
+.twieter-icon {
+  padding-right: 8px;
+}
